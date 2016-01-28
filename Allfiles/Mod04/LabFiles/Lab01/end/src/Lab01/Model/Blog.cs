@@ -10,6 +10,7 @@ namespace Lab01.Model
     [Table("Blogs")]
     public class Blog
     {
+        [Key]
         public int Id { get; set; }
         [Required]
         public string Name { get; set; }
